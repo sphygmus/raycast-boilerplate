@@ -1,0 +1,39 @@
+{
+	"$schema": "https://www.raycast.com/schemas/extension.json",
+	"version": "1.0.0",
+	"name": "raycast-boilerplate",
+	"title": "Raycast Boilerplate",
+	"description": "Boilerplate for Raycast Windows extensions",
+	"icon": "icon.png",
+	"author": "sphygmus",
+	"categories": [
+		"Other"
+	],
+	"license": "MIT",
+	"platforms": [
+		"Windows"
+	],
+	"commands": [
+		{
+			"name": "example",
+			"title": "Example Command",
+			"description": "An example command to demonstrate Raycast.",
+			"mode": "view"
+		}
+	],
+	"dependencies": {
+		"@raycast/api": "^1.102.3",
+		"@raycast/utils": "^2.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^24.2.1",
+		"@types/react": "^19.1.9",
+		"prettier": "^3.6.2",
+		"typescript": "^5.9.2"
+	},
+	"scripts": {
+		"build": "ray build -e dist",
+		"dev": "ray develop",
+		"publish": "ray publish"
+	}
+}
