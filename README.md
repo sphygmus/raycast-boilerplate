@@ -1,6 +1,6 @@
 # Raycast Extension Boilerplate
 
-A starter template for building your own [Raycast](https://www.raycast.com/) Windows extension.
+A minimal starter template for creating your own [Raycast](https://www.raycast.com/) extension on Windows. This boilerplate provides only the essential setup — no linters or tests included — making it easy to customize and extend for your specific needs.
 
 ## Features
 
@@ -40,6 +40,7 @@ A starter template for building your own [Raycast](https://www.raycast.com/) Win
 
 ## Development
 
+- Create your command in the `commands` array in `package.json`. Read the Raycast Documentation for more information.
 - Edit the source files in the `src` directory.
 - Use `npm run dev` to watch for changes and reload the extension automatically.
 
